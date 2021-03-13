@@ -1,0 +1,79 @@
+body {
+
+    font-size: medium;
+    text-align:center;
+    background-color: darkseagreen;
+    font-family: 'Truculenta', sans-serif;
+}
+
+
+
+.hidingSpot {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.chicken1 {
+    background-image: url("img/chicken1.png");
+}
+
+.cow1 {
+    background-image: url("img/cow1.png");
+}
+
+.head1 {
+    background-image: url("img/head1.jpg");
+}
+
+.raygun1 {
+    background-image: url("img/raygun1.png");
+}
+
+.tank1 {
+    background-image: url("img/tank1.jpg");
+}
+.newSpan.content{
+    align-content: center;
+}
+h5{
+    display: inline-block;
+}
+
+.rabbitDoom {
+    background-color: firebrick;
+}
+
+#myGrid {
+    display: inline-block;
+}
+
+button {
+    background: darkblue;
+    color:aqua;
+    cursor:pointer;
+    font-size:1.2em;
+    padding:10px 10px;
+    width:110px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: 'Truculenta', sans-serif;
+
+   }
+
+#scoreHu, #scoreCh,#scoreCo {
+    background: darkblue;
+    color:aqua;
+    cursor:pointer;
+    font-size:1.2em;
+    padding:10px 10px;
+    width:150px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: 'Truculenta', sans-serif;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hide and Seek</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<form>
+
+    <div class="container justify-content-center">
+        <h1>Alien Dice</h1>
+
+        <h5> Humans: <span id="humanCollection">0</span> </h5> &nbsp; &nbsp;&nbsp;
+        <h5> Cows: <span id="cowCollection">0</span> </h5> &nbsp; &nbsp;&nbsp;
+        <h5> Chicken: <span id="chickenCollection">0</span> </h5>
+        <br>
+        <h5>  Rerolled remaining : <span id="rerolledRemaining">3</span> </h5>
+        <br>
+<div id="myGrid">
+
+<div id="gameBoard"></div>
+    <br><br>
+
+</div>
+<div>
+    <button id="start" name="startN">Start turn</button>
+
+<button id = "reroll"> Reroll </button>
+<button id = "end"> End Turn </button>
+<button id = "scoreHu"> Score Human</button>
+<button id = "scoreCo"> Score Cow </button>
+<button id = "scoreCh"> Score Chicken </button>
+</div>
+    </div>
+</form>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="code.js"></script>
+</html>
